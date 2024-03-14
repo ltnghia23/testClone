@@ -35,6 +35,7 @@ public class BuildingApi {
 		List<BuildingDTO> result = buildingService.findAll(name, numberOfBasement);
 		return result;
 	}
+	//test change
 //	@RequestMapping(value = "/api/BuildingApi", method = RequestMethod.GET)
 //	@ResponseBody
 //	public BuildingDTO getBulding(@RequestParam Map<String, Object> params,
